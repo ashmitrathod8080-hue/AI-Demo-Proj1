@@ -243,6 +243,191 @@ const App = () => {
     </section>
   );
 
+  const PricingSection = () => (
+    <section id="pricing" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-orii-dark mb-4">Choose Your Plan</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Start free and scale as you grow. Enterprise solutions available for teams.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Free Plan */}
+          <div className="card border-2 border-gray-200 relative">
+            <div className="text-center mb-6">
+              <h3 className="text-xl font-bold text-orii-dark mb-2">Free</h3>
+              <div className="text-3xl font-bold text-orii-primary mb-2">$0</div>
+              <div className="text-gray-600">per month</div>
+            </div>
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Limited Usage
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Basic Performance
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Community Support
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                API Access
+              </li>
+            </ul>
+            <button className="btn-secondary w-full">Get Started</button>
+          </div>
+
+          {/* Pro Plan */}
+          <div className="card border-2 border-orii-primary relative">
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+              <span className="bg-orii-primary text-white px-3 py-1 rounded-full text-sm font-medium">Popular</span>
+            </div>
+            <div className="text-center mb-6">
+              <h3 className="text-xl font-bold text-orii-dark mb-2">Pro</h3>
+              <div className="text-3xl font-bold text-orii-primary mb-2">$29</div>
+              <div className="text-gray-600">per month</div>
+            </div>
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Enhanced Usage Limits
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Improved Performance
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Priority Support
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Advanced Features
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Analytics Dashboard
+              </li>
+            </ul>
+            <button className="btn-primary w-full">Choose Pro</button>
+          </div>
+
+          {/* Enterprise Basic */}
+          <div className="card border-2 border-gray-200 relative">
+            <div className="text-center mb-6">
+              <h3 className="text-xl font-bold text-orii-dark mb-2">Enterprise Basic</h3>
+              <div className="text-3xl font-bold text-orii-primary mb-2">$100</div>
+              <div className="text-gray-600">per month</div>
+            </div>
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                High Usage Limits
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Enterprise Performance
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Dedicated Support
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                SLA Guarantees
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Custom Integration
+              </li>
+            </ul>
+            <button className="btn-secondary w-full">Contact Sales</button>
+          </div>
+
+          {/* Enterprise Plus */}
+          <div className="card border-2 border-gray-200 relative">
+            <div className="text-center mb-6">
+              <h3 className="text-xl font-bold text-orii-dark mb-2">Enterprise Plus</h3>
+              <div className="text-3xl font-bold text-orii-primary mb-2">$200</div>
+              <div className="text-gray-600">per month</div>
+            </div>
+            <ul className="space-y-3 mb-8">
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Unlimited Usage
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Maximum Performance
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                White-glove Support
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Custom Solutions
+              </li>
+              <li className="flex items-center">
+                <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Dedicated Account Manager
+              </li>
+            </ul>
+            <button className="btn-secondary w-full">Contact Sales</button>
+          </div>
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-gray-600 mb-4">Need a custom solution? We're here to help.</p>
+          <a href="#contact" className="btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  );
+
   const AboutSection = () => (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
