@@ -6,6 +6,8 @@ import ChatInterface from './ChatInterface';
 const App = () => {
   const [modelInfo, setModelInfo] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [user, setUser] = useState(null);
+  const [showChat, setShowChat] = useState(false);
   const [contactForm, setContactForm] = useState({
     name: '',
     email: '',
