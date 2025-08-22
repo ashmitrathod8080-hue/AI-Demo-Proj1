@@ -15,9 +15,32 @@ const App = () => {
     message: ''
   });
 
-  useEffect(() => {
-    fetchModelInfo();
-  }, []);
+  const handleLogin = (userData) => {
+    setUser(userData);
+  };
+
+  const handleLogout = () => {
+    setUser(null);
+    setShowChat(false);
+  };
+
+  const handleGetStarted = () => {
+    if (user) {
+      setShowChat(true);
+    } else {
+      // Show login modal or redirect to login
+    }
+  };
+
+  // If user is logged in and wants to chat, show chat interface
+  if (user && showChat) {
+    return <ChatInterface user={user} onLogout={handleLogout} />;
+  }
+
+  // If no user is logged in, show login page
+  if (!user) {
+    return <Login onLogin={handleLogin} />;
+  }
 
   const fetchModelInfo = async () => {
     try {
