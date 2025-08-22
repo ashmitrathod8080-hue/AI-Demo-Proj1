@@ -80,6 +80,7 @@ const App = () => {
             <div className="flex flex-col space-y-4">
               <a href="#features" className="text-gray-600 hover:text-orii-primary transition-colors">Features</a>
               <a href="#specifications" className="text-gray-600 hover:text-orii-primary transition-colors">Specifications</a>
+              <a href="#pricing" className="text-gray-600 hover:text-orii-primary transition-colors">Pricing</a>
               <a href="#about" className="text-gray-600 hover:text-orii-primary transition-colors">About</a>
               <a href="#contact" className="text-gray-600 hover:text-orii-primary transition-colors">Contact</a>
               <button className="btn-primary w-full">Get Started</button>
