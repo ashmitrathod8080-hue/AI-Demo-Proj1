@@ -127,7 +127,8 @@ const App = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-orii-dark mb-6 leading-tight">
-            Meet <span className="text-gradient">Orii-O1</span>
+            Introducing <span className="text-gradient">Orii-O1</span><br />
+            <span className="text-4xl md:text-5xl">From Orii-Gen</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             The next generation of AI reasoning. Advanced large language model designed for 
