@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Login from './Login';
+import ChatInterface from './ChatInterface';
 
 const App = () => {
   const [modelInfo, setModelInfo] = useState(null);
