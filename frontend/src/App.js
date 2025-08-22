@@ -479,8 +479,12 @@ const App = () => {
             <div className="border-t border-gray-200 pt-8">
               <h3 className="text-2xl font-bold text-orii-dark mb-4">Meet the Founder</h3>
               <div className="flex items-start space-x-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-orii-primary to-orii-accent rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">AR</span>
+                <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0 border-2 border-orii-primary">
+                  <img 
+                    src="https://customer-assets.emergentagent.com/job_orii-o1/artifacts/kah9gdzp_my%20image.jpeg" 
+                    alt="Ashmit Rathod" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold text-orii-dark">Ashmit Rathod</h4>
