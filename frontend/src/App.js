@@ -429,37 +429,37 @@ const App = () => {
   );
 
   const AboutSection = () => (
+  const AboutSection = () => (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-orii-dark mb-6">About Orii-Gen</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Orii-Gen is at the forefront of artificial intelligence research and development. 
-              Our mission is to create AI systems that enhance human capability and drive 
-              innovation across industries.
+              Orii-Gen is an innovative AI startup focused on developing cutting-edge language models. 
+              Our mission is to make advanced AI capabilities accessible and practical for everyone, 
+              from individuals to enterprises.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With Orii-O1, we've achieved a breakthrough in large language models, combining 
-              advanced reasoning capabilities with practical applications that solve real-world problems.
+              With Orii-O1, we're building the next generation of intelligent systems that understand 
+              context, reason effectively, and provide meaningful solutions to real-world challenges.
             </p>
             
-            <div className="grid grid-cols-2 gap-6">
-              <div>
-                <div className="text-3xl font-bold text-orii-primary mb-2">10M+</div>
-                <div className="text-gray-600">API Calls Daily</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-orii-primary mb-2">150+</div>
-                <div className="text-gray-600">Countries Served</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-orii-primary mb-2">99.9%</div>
-                <div className="text-gray-600">Uptime SLA</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-orii-primary mb-2">24/7</div>
-                <div className="text-gray-600">Support Available</div>
+            <div className="border-t border-gray-200 pt-8">
+              <h3 className="text-2xl font-bold text-orii-dark mb-4">Meet the Founder</h3>
+              <div className="flex items-start space-x-4">
+                <div className="w-16 h-16 bg-gradient-to-br from-orii-primary to-orii-accent rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-xl">AR</span>
+                </div>
+                <div>
+                  <h4 className="text-xl font-semibold text-orii-dark">Ashmit Rathod</h4>
+                  <p className="text-gray-600 mb-2">Founder & CEO</p>
+                  <p className="text-gray-600 leading-relaxed">
+                    2nd year Computer Science Engineering student at KLE Tech University Belagavi. 
+                    Passionate about artificial intelligence and building innovative solutions that 
+                    push the boundaries of what's possible with modern AI technology.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -467,8 +467,8 @@ const App = () => {
           <div className="card bg-gradient-to-br from-orii-primary to-orii-accent text-white">
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
             <p className="text-lg opacity-90 mb-6">
-              "To democratize access to advanced AI capabilities and empower every organization 
-              to harness the transformative power of artificial intelligence."
+              "To democratize access to advanced AI capabilities and empower individuals and 
+              organizations to harness the transformative power of artificial intelligence."
             </p>
             
             <div className="border-t border-white/20 pt-6">
@@ -477,8 +477,26 @@ const App = () => {
                 <li>• Innovation through responsible AI development</li>
                 <li>• Transparency in model capabilities and limitations</li>
                 <li>• Commitment to ethical AI practices</li>
-                <li>• Continuous improvement and research</li>
+                <li>• Continuous learning and improvement</li>
               </ul>
+            </div>
+
+            <div className="border-t border-white/20 pt-6 mt-6">
+              <h4 className="font-semibold mb-3">Why Choose Orii-O1?</h4>
+              <div className="grid grid-cols-1 gap-3">
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
+                  <span className="opacity-90">Student-founded startup with fresh perspectives</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
+                  <span className="opacity-90">Affordable pricing for all user types</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
+                  <span className="opacity-90">Focused on practical, real-world applications</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
