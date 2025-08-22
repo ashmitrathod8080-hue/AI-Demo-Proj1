@@ -623,6 +623,7 @@ const App = () => {
       <HeroSection />
       <FeaturesSection />
       <SpecificationsSection />
+      <PricingSection />
       <AboutSection />
       <ContactSection />
       <Footer />
