@@ -136,7 +136,7 @@ const App = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <button className="btn-primary text-lg px-8 py-4">
+            <button onClick={handleGetStarted} className="btn-primary text-lg px-8 py-4">
               Try Orii-O1 Now
             </button>
             <button className="btn-secondary text-lg px-8 py-4">
