@@ -94,7 +94,7 @@ const App = () => {
             <a href="#pricing" className="text-gray-600 hover:text-orii-primary transition-colors">Pricing</a>
             <a href="#about" className="text-gray-600 hover:text-orii-primary transition-colors">About</a>
             <a href="#contact" className="text-gray-600 hover:text-orii-primary transition-colors">Contact</a>
-            <button className="btn-primary">Get Started</button>
+            <button onClick={handleGetStarted} className="btn-primary">Get Started</button>
           </div>
 
           <div className="md:hidden">
