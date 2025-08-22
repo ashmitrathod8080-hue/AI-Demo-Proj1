@@ -15,6 +15,10 @@ const App = () => {
     message: ''
   });
 
+  useEffect(() => {
+    fetchModelInfo();
+  }, []);
+
   const handleLogin = (userData) => {
     setUser(userData);
   };
